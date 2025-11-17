@@ -15,6 +15,7 @@ devices = {
 def ai_predictor(device_name):
     if device_name == 'lights':
         return 'on' if random.random() > 0.5 else 'off'
+    
     elif device_name == 'thermostat':
         return round(random.uniform(20, 25), 1)
     elif device_name == 'tv':
