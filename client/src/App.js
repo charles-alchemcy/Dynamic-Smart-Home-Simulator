@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const App = () => {
+const App = (param) => {
     const [devices, setDevices] = useState({});
 
     useEffect(() => {
@@ -16,6 +16,7 @@ const App = () => {
             console.error('Error fetching devices', error);
         }
     };
+
 
     const handleToggleDevice = async (deviceName) => {
         const currentDevice = devices[deviceName];
