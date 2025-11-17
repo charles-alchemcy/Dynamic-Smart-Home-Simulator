@@ -8,6 +8,7 @@ devices = {
     'lights': {'state': 'off', 'location': 'Living Room'},
     'thermostat': {'state': 22, 'unit': 'Celsius'},
     'tv': {'state': 'off', 'channel': 'Netflix'},
+    "from": ["origin"]
 }
 
 # Function to simulate AI prediction for device behavior
