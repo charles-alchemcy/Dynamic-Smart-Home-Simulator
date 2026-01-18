@@ -3,6 +3,7 @@ import random
 
 app = Flask(__name__)
 
+
 # Simulated Devices
 devices = {
     'lights': {'state': 'off', 'location': 'Living Room'},
