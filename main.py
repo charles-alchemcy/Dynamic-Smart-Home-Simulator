@@ -10,7 +10,6 @@ devices = {
     'tv': {'state': 'off', 'channel': 'Netflix'},
     "from": ["origin"]
 }
-
 # Function to simulate AI prediction for device behavior
 def ai_predictor(device_name):
     if device_name == 'lights':
